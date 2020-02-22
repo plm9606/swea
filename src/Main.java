@@ -3,10 +3,12 @@ class Main
 {
 
     public static void main(String[] args) {
-        Solution_1215 solution_1215 = new Solution_1215();
+        Solution_1216 s = new Solution_1216();
         try {
-            solution_1215.solution();
+            s.s();
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        System.out.println(7/2);
     }}

@@ -1,4 +1,5 @@
 
+import java.io.FileNotFoundException;
 import java.util.*;
 import java.io.FileInputStream;
 
@@ -15,7 +16,6 @@ class Solution_1216
 
         Scanner sc = new Scanner(System.in);
 
-        int max = 0;
 
         // toCharArray()를 사용하면 문자열을 배열로 받을 수 있다.
         for (int tt = 1; tt <= 10; tt++) {
@@ -24,6 +24,8 @@ class Solution_1216
             for (int i = 0; i < 100; i++) {
                 a[i] = sc.next().toCharArray();
             }
+
+            int max = 0;
 
             for (int start=0; start< 100; start++){
                 // max len 이하로는 검사를 할 필요가 없다.

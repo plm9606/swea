@@ -3,9 +3,9 @@ class Main
 {
 
     public static void main(String[] args) {
-        Solution_1210 s = new Solution_1210();
+        Solution_1211 s = new Solution_1211();
         try {
-            s.solutionReverse();
+            s.solution();
         } catch (Exception e) {
             e.printStackTrace();
         }

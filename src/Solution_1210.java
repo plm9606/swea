@@ -1,4 +1,5 @@
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -64,6 +65,50 @@ public class Solution_1210 {
             }else if(x+1 >=0 && x+1 < 100 && visited[y][x+1]== false && arr[y][x+1] == 1){
                 x++;
             }else y++;
+        }
+    }
+
+    public void solutionReverse() throws FileNotFoundException {
+        System.setIn(new FileInputStream("res/input1210.txt"));
+
+        Scanner sc;
+        sc = new Scanner(System.in);
+
+        for(int test_case = 1; test_case <= 10; test_case++) {
+
+            int answer = 0;
+            int y=0,x=0;
+            sc.nextInt();
+            for (int i = 0; i < 100; i++) {
+                for (int j = 0; j < 100; j++) {
+                    int temp = sc.nextInt();
+                    if(temp == 2){
+                        y=i;
+                        x=j;
+                    }
+                    arr[i][j] = temp;
+                }
+            }
+
+            while (y>=0){
+                if(arr[y][x] == 0) break;
+
+                if(y==0){
+                    answer = x;
+                    break;
+                }
+
+                // 방문 표시가 없으면 무한루프에 빠진다.
+                arr[y][x]=0;
+                if(x-1>=0 && arr[y][x-1] == 1){
+                    x--;
+                }
+                else if(x+1<100 && arr[y][x+1]==1){
+                    x++;
+                }else y--;
+            }
+
+            System.out.printf("#%d %d\n", test_case, answer);
         }
     }
 }

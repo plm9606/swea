@@ -3,8 +3,8 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Solution_ {
-    public void solution() throws FileNotFoundException {
-//        System.setIn(new FileInputStream("res/input.txt"));
+    public static void main(String[] args)throws FileNotFoundException {
+        System.setIn(new FileInputStream("res/input.txt"));
 
 
         Scanner sc = new Scanner(System.in);

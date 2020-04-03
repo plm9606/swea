@@ -1,7 +1,9 @@
+package swea;
+
 import java.io.FileInputStream;
 import java.util.Scanner;
 
-public class Solution_1206 {
+public class Solution_1204 {
         public static void solution() throws Exception
         {
 		/*
@@ -11,38 +13,43 @@ public class Solution_1206 {
 		   따라서 테스트를 수행할 때에는 아래 주석을 지우고 이 메소드를 사용하셔도 좋습니다.
 		   단, 채점을 위해 코드를 제출하실 때에는 반드시 이 메소드를 지우거나 주석 처리 하셔야 합니다.
 		 */
-            System.setIn(new FileInputStream("res/input1206.txt"));
+            System.setIn(new FileInputStream("res/input1204.txt"));
 
 		/*
 		   표준입력 System.in 으로부터 스캐너를 만들어 데이터를 읽어옵니다.
 		 */
             Scanner sc = new Scanner(System.in);
-
+            int T;
+            T=sc.nextInt();
 		/*
 		   여러 개의 테스트 케이스가 주어지므로, 각각을 처리합니다.
 		*/
 
-            for(int test_case = 1; test_case <= 10; test_case++)
+            for(int test_case = 1; test_case <= T; test_case++)
             {
-                int width = sc.nextInt();
-                int[] buildings = new int[width];
-                int answer = 0;
+                int tc = sc.nextInt();
+                int[] scoreList = new int[101];
+                int[] students = new int[1000];
 
-                for (int i=0; i<width; i++){
-                    buildings[i] = sc.nextInt();
+                for(int i=0; i<1000; i++){
+                    students[i] = sc.nextInt();
                 }
 
-                for(int i=0+2; i<width-2; i++){
-                    int first = buildings[i] - buildings[i-2];
-                    int second = buildings[i] - buildings[i-1];
-                    int third = buildings[i] - buildings[i+1];
-                    int fourth = buildings[i] - buildings[i+2];
-                    int max = Math.min(first,Math.min(second, Math.min(third, fourth)));
-                    if(max <= 0) continue;
-                    answer += max;
+                for(int i=0; i<1000; i++){
+                    int score = students[i];
+                    scoreList[score] += 1;
                 }
 
-                System.out.format("#%d %d\n", test_case, answer);
+                int max = 0;
+                int maxScore = 0;
+                for(int i=100; i>=0; i--){
+                    if(max<scoreList[i]){
+                        max = scoreList[i];
+                        maxScore = i;
+                    }
+                }
+
+                System.out.format("#%d %d\n", tc, maxScore);
             }
         }
 

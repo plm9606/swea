@@ -1,3 +1,5 @@
+package swea;
+
 import java.awt.print.Pageable;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

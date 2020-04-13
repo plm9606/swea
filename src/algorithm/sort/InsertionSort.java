@@ -3,7 +3,7 @@ package algorithm.sort;
 import java.util.Arrays;
 
 /**
- * 삽입정렬은 2번째 원소부터 시작해 그 앞으 원소들과 비교해 해당 원소가 들어갈 적절한 위치에 삽입을 한다.
+ * 삽입정렬은 2번째 원소부터 시작해 그 앞의 원소들과 비교해 해당 원소가 들어갈 적절한 위치에 삽입을 한다.
  * 삽입정렬은 선택정렬과 유사하지만, 더 효율적인 정렬 알고리즘이다.
  */
 public class InsertionSort {

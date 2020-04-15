@@ -2,37 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0c2ebee-20b6-404d-8ffe-33a50b767574" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/level1/Doll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/level1/나누어_떨어지는_숫자배열.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_1204.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_1204.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_1206.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_1206.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_1208.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_1208.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_1209.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_1209.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_1210.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_1210.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_1211.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_1211.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_1213.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_1213.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_1215.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_1215.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_1216.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_1216.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_1217.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_1217.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_1218.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_1218.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_1219.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_1219.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_1222.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_1222.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_1223.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_1223.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_1224.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_1224.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_1225.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_1225.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_1226.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_1226.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_1227.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_1227.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_1228.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_1228.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_1229.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_1229.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_1230.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_1230.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_1244.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_1244.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_1245.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_1245.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_1248.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_1248.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_1256.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_1256.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_1257.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_1257.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_9317.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_9317.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution_9480.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swea/Solution_9480.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/가운데_글자_가져오기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/level1/가운데_글자_가져오기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/같은_숫자는_싫어.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/level1/같은_숫자는_싫어.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/나누어_떨어지는_숫자배열.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/모의고사.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/level1/모의고사.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/이천십육년.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/level1/이천십육년.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,18 +23,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>th</find>
-      <find>t</find>
-      <find>2</find>
-      <find>char</find>
-      <find>toCharArray</find>
-      <find>@Ignore</find>
-      <find>[11, 11]</find>
-      <find>#</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,7 +43,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583775949319" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -92,13 +58,13 @@
       <recent name="$PROJECT_DIR$/res" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution_1245">
-    <configuration name="Boj_5582" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.Boj_5582" />
+  <component name="RunManager" selected="Application.나누어_떨어지는_숫자배열">
+    <configuration name="모의고사" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level1.모의고사" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class_ex.*" />
+          <option name="PATTERN" value="programmers.level1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Boj_9251" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.Boj_9251" />
+    <configuration name="Doll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level1.Doll" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class_ex.*" />
+          <option name="PATTERN" value="programmers.level1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Boj_9252" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.Boj_9252" />
+    <configuration name="이천십육년" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.이천십육년" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class_ex.*" />
+          <option name="PATTERN" value="programmers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,34 +98,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution_1244" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="swea.Solution_1244" />
+    <configuration name="같은_숫자는_싫어" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level1.같은_숫자는_싫어" />
       <module name="Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.level1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution_1245" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="swea.Solution_1245" />
+    <configuration name="나누어_떨어지는_숫자배열" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level1.나누어_떨어지는_숫자배열" />
+      <module name="Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.level1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="alg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alg" />
       <module name="Code" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Boj_9251" />
-      <item itemvalue="Application.Boj_9252" />
-      <item itemvalue="Application.Boj_5582" />
-      <item itemvalue="Application.Solution_1245" />
-      <item itemvalue="Application.Solution_1244" />
+      <item itemvalue="Application.alg" />
+      <item itemvalue="Application.Doll" />
+      <item itemvalue="Application.모의고사" />
+      <item itemvalue="Application.같은_숫자는_싫어" />
+      <item itemvalue="Application.나누어_떨어지는_숫자배열" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution_1245" />
-        <item itemvalue="Application.Solution_1244" />
-        <item itemvalue="Application.Boj_5582" />
-        <item itemvalue="Application.Boj_9252" />
-        <item itemvalue="Application.Boj_9251" />
+        <item itemvalue="Application.나누어_떨어지는_숫자배열" />
+        <item itemvalue="Application.같은_숫자는_싫어" />
+        <item itemvalue="Application.모의고사" />
+        <item itemvalue="Application.Doll" />
+        <item itemvalue="Application.alg" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +197,12 @@
       <workItem from="1585708035304" duration="377000" />
       <workItem from="1585708500366" duration="674000" />
       <workItem from="1585799247467" duration="17000" />
+      <workItem from="1586167562861" duration="14714000" />
+      <workItem from="1586497716151" duration="3135000" />
+      <workItem from="1586759021145" duration="12011000" />
+      <workItem from="1586826535392" duration="1677000" />
+      <workItem from="1586881844354" duration="19000" />
+      <workItem from="1586945740375" duration="1108000" />
     </task>
     <servers />
   </component>
@@ -228,18 +219,71 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1201" y="186" key="#com.intellij.ide.util.MemberChooser" timestamp="1586265432695">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1201" y="186" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1586265432695" />
+    <state x="1201" y="186" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1586167877383" />
     <state x="778" y="422" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585708060002">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="778" y="422" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585708060002" />
-    <state x="690" y="238" key="FileChooserDialogImpl" timestamp="1585799259886">
+    <state x="484" y="355" width="641" height="725" key="#xdebugger.evaluate" timestamp="1586766670578">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="690" y="238" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1585799259886" />
+    <state x="484" y="355" width="641" height="725" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1586766670578" />
+    <state x="690" y="238" key="FileChooserDialogImpl" timestamp="1586826549912">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="690" y="238" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1586826549912" />
+    <state width="1869" height="334" key="GridCell.Tab.0.bottom" timestamp="1586946784576">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1852" height="334" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1586281503064" />
+    <state width="1869" height="334" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586946784576" />
+    <state width="1869" height="334" key="GridCell.Tab.0.center" timestamp="1586946784576">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1852" height="334" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1586281503064" />
+    <state width="1869" height="334" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586946784576" />
+    <state width="1869" height="334" key="GridCell.Tab.0.left" timestamp="1586946784576">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1852" height="334" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1586281503063" />
+    <state width="1869" height="334" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586946784576" />
+    <state width="1869" height="334" key="GridCell.Tab.0.right" timestamp="1586946784576">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1852" height="334" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1586281503064" />
+    <state width="1869" height="334" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586946784576" />
+    <state width="1869" height="302" key="GridCell.Tab.1.bottom" timestamp="1586767906860">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1869" height="302" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586767906860" />
+    <state width="1869" height="302" key="GridCell.Tab.1.center" timestamp="1586767906860">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1869" height="302" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586767906860" />
+    <state width="1869" height="302" key="GridCell.Tab.1.left" timestamp="1586767906860">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1869" height="302" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586767906860" />
+    <state width="1869" height="302" key="GridCell.Tab.1.right" timestamp="1586767906860">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1869" height="302" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586767906860" />
     <state x="352" y="21" key="SettingsEditor" timestamp="1585708410502">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="352" y="21" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1585708410502" />
+    <state x="532" y="246" key="run.anything.popup" timestamp="1586764085191">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="532" y="246" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586764085191" />
+    <state x="1019" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1586766120973">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1019" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586766120973" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -266,54 +310,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>pattern.substring(j,j+1)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>parent.substring(i, i+1)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>sc.next()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Arrays.stream(pattern).mapToObj(String::valueOf).reduce((a,b)-&gt;a.concat(&quot;,&quot;).concat(b)).get()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>i</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>parent.substring(i,i+1)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>parent.substring(i,i+1).equals(parent.substring(j,j+1))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>!parent.substring(i,i+1).equals(parent.substring(j,j+1))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>j&gt;0 &amp;&amp; !parent.substring(i,i+1).equals(parent.substring(j,j+1))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
 </project>

@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0c2ebee-20b6-404d-8ffe-33a50b767574" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/programmers/level1/Doll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level1/나누어_떨어지는_숫자배열.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/programmers/가운데_글자_가져오기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/level1/가운데_글자_가져오기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/programmers/같은_숫자는_싫어.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/level1/같은_숫자는_싫어.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/programmers/나누어_떨어지는_숫자배열.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/programmers/모의고사.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/level1/모의고사.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/programmers/이천십육년.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/level1/이천십육년.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +50,7 @@
       <recent name="$PROJECT_DIR$/res" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.나누어_떨어지는_숫자배열">
+  <component name="RunManager" selected="Application._124_나라의_숫자">
     <configuration name="모의고사" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.level1.모의고사" />
       <module name="Code" />
@@ -72,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Doll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level1.Doll" />
+    <configuration name="프린터" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level2.프린터" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.level1.*" />
+          <option name="PATTERN" value="programmers.level2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,6 +83,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_124_나라의_숫자" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level2._124_나라의_숫자" />
+      <module name="Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.level2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,27 +129,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="alg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alg" />
-      <module name="Code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.alg" />
-      <item itemvalue="Application.Doll" />
       <item itemvalue="Application.모의고사" />
       <item itemvalue="Application.같은_숫자는_싫어" />
       <item itemvalue="Application.나누어_떨어지는_숫자배열" />
+      <item itemvalue="Application.프린터" />
+      <item itemvalue="Application._124_나라의_숫자" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._124_나라의_숫자" />
+        <item itemvalue="Application.프린터" />
         <item itemvalue="Application.나누어_떨어지는_숫자배열" />
         <item itemvalue="Application.같은_숫자는_싫어" />
         <item itemvalue="Application.모의고사" />
-        <item itemvalue="Application.Doll" />
-        <item itemvalue="Application.alg" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +200,7 @@
       <workItem from="1586759021145" duration="12011000" />
       <workItem from="1586826535392" duration="1677000" />
       <workItem from="1586881844354" duration="19000" />
-      <workItem from="1586945740375" duration="1108000" />
+      <workItem from="1586945740375" duration="10001000" />
     </task>
     <servers />
   </component>
@@ -228,50 +226,50 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="778" y="422" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585708060002" />
-    <state x="484" y="355" width="641" height="725" key="#xdebugger.evaluate" timestamp="1586766670578">
+    <state x="924" y="168" width="641" height="725" key="#xdebugger.evaluate" timestamp="1586971941205">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="484" y="355" width="641" height="725" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1586766670578" />
+    <state x="924" y="168" width="641" height="725" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1586971941205" />
     <state x="690" y="238" key="FileChooserDialogImpl" timestamp="1586826549912">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="238" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1586826549912" />
-    <state width="1869" height="334" key="GridCell.Tab.0.bottom" timestamp="1586946784576">
+    <state width="1866" height="302" key="GridCell.Tab.0.bottom" timestamp="1586972498416">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1852" height="334" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1586281503064" />
-    <state width="1869" height="334" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586946784576" />
-    <state width="1869" height="334" key="GridCell.Tab.0.center" timestamp="1586946784576">
+    <state width="1866" height="302" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586972498416" />
+    <state width="1866" height="302" key="GridCell.Tab.0.center" timestamp="1586972498416">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1852" height="334" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1586281503064" />
-    <state width="1869" height="334" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586946784576" />
-    <state width="1869" height="334" key="GridCell.Tab.0.left" timestamp="1586946784576">
+    <state width="1866" height="302" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586972498416" />
+    <state width="1866" height="302" key="GridCell.Tab.0.left" timestamp="1586972498416">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1852" height="334" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1586281503063" />
-    <state width="1869" height="334" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586946784576" />
-    <state width="1869" height="334" key="GridCell.Tab.0.right" timestamp="1586946784576">
+    <state width="1866" height="302" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586972498416" />
+    <state width="1866" height="302" key="GridCell.Tab.0.right" timestamp="1586972498416">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1852" height="334" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1586281503064" />
-    <state width="1869" height="334" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586946784576" />
-    <state width="1869" height="302" key="GridCell.Tab.1.bottom" timestamp="1586767906860">
+    <state width="1866" height="302" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586972498416" />
+    <state width="1866" height="302" key="GridCell.Tab.1.bottom" timestamp="1586972498538">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1869" height="302" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586767906860" />
-    <state width="1869" height="302" key="GridCell.Tab.1.center" timestamp="1586767906860">
+    <state width="1866" height="302" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586972498538" />
+    <state width="1866" height="302" key="GridCell.Tab.1.center" timestamp="1586972498538">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1869" height="302" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586767906860" />
-    <state width="1869" height="302" key="GridCell.Tab.1.left" timestamp="1586767906860">
+    <state width="1866" height="302" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586972498538" />
+    <state width="1866" height="302" key="GridCell.Tab.1.left" timestamp="1586972498538">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1869" height="302" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586767906860" />
-    <state width="1869" height="302" key="GridCell.Tab.1.right" timestamp="1586767906860">
+    <state width="1866" height="302" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586972498538" />
+    <state width="1866" height="302" key="GridCell.Tab.1.right" timestamp="1586972498538">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1869" height="302" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586767906860" />
+    <state width="1866" height="302" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586972498538" />
     <state x="352" y="21" key="SettingsEditor" timestamp="1585708410502">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -307,6 +305,11 @@
           <url>file://$PROJECT_DIR$/src/swea/Solution_1230.java</url>
           <line>55</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/programmers/level2/_124_나라의_숫자.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,4 +1,4 @@
-package programmers;
+package programmers.level1;
 
 public class 이천십육년 {
     public static void main(String[] args) {

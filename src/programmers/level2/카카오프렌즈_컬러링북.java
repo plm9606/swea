@@ -50,6 +50,7 @@ public class 카카오프렌즈_컬러링북 {
         int color = picture[y][x];
         int count = 1;
         stack.push(getPoint(y,x));
+        visited[y][x] = true;
 
         while (!stack.isEmpty()){
             int[] curPoint = stack.pop();
@@ -67,6 +68,20 @@ public class 카카오프렌즈_컬러링북 {
                 if(!visited[curY][curX+1]){
                     visited[curY][curX+1] = true;
                     stack.push(getPoint(curY, curX+1));
+                    count++;
+                }
+            }
+            if(curY - 1 >= 0 && picture[curY-1][curX] == color){
+                if(!visited[curY-1][curX]){
+                    visited[curY-1][curX] = true;
+                    stack.push(getPoint(curY-1, curX));
+                    count++;
+                }
+            }
+            if(curX - 1 >= 0 && picture[curY][curX-1] == color){
+                if(!visited[curY][curX-1]){
+                    visited[curY][curX-1] = true;
+                    stack.push(getPoint(curY, curX-1));
                     count++;
                 }
             }

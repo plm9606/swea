@@ -50,9 +50,9 @@
       <recent name="$PROJECT_DIR$/res" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.카카오프렌즈_컬러링북">
-    <configuration name="스킬트리" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level2.스킬트리" />
+  <component name="RunManager" selected="Application.Test2">
+    <configuration name="프린터" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level2.프린터" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
@@ -64,8 +64,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="프린터" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level2.프린터" />
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.Test1" />
+      <module name="Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.Test2" />
+      <module name="Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="단체사진찍기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level2.단체사진찍기" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
@@ -103,19 +129,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_124_나라의_숫자" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level2._124_나라의_숫자" />
-      <module name="Code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.level2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="카카오프렌즈_컬러링북" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.level2.카카오프렌즈_컬러링북" />
       <module name="Code" />
@@ -129,12 +142,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="같은_숫자는_싫어" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level1.같은_숫자는_싫어" />
+    <configuration name="문자열_압축" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level2.문자열_압축" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.level1.*" />
+          <option name="PATTERN" value="programmers.level2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="괄호_변환" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level2.괄호_변환" />
+      <module name="Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.level2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="더_맵게" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level2.더_맵게" />
+      <module name="Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.level2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,19 +195,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.같은_숫자는_싫어" />
-      <item itemvalue="Application._124_나라의_숫자" />
-      <item itemvalue="Application.스킬트리" />
+      <item itemvalue="Application.나누어_떨어지는_숫자배열" />
+      <item itemvalue="Application.프린터" />
       <item itemvalue="Application.멀쩡한_사각형" />
-      <item itemvalue="Application.카카오프렌즈_컬러링북" />
+      <item itemvalue="Application.Test1" />
+      <item itemvalue="Application.Test2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.카카오프렌즈_컬러링북" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.Test1" />
         <item itemvalue="Application.멀쩡한_사각형" />
-        <item itemvalue="Application.스킬트리" />
-        <item itemvalue="Application._124_나라의_숫자" />
-        <item itemvalue="Application.같은_숫자는_싫어" />
       </list>
     </recent_temporary>
   </component>
@@ -227,18 +264,13 @@
       <workItem from="1586826535392" duration="1677000" />
       <workItem from="1586881844354" duration="19000" />
       <workItem from="1586945740375" duration="12236000" />
-      <workItem from="1587007618383" duration="4176000" />
+      <workItem from="1587007618383" duration="26840000" />
+      <workItem from="1587370354985" duration="1195000" />
+      <workItem from="1587550142328" duration="7281000" />
+      <workItem from="1587732437061" duration="885000" />
+      <workItem from="1587738983387" duration="1027000" />
     </task>
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -253,58 +285,62 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="778" y="422" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585708060002" />
-    <state x="1279" y="113" width="641" height="725" key="#xdebugger.evaluate" timestamp="1587012515210">
+    <state x="371" y="110" width="641" height="725" key="#xdebugger.evaluate" timestamp="1587739500530">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1279" y="113" width="641" height="725" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1587012515210" />
+    <state x="371" y="110" width="641" height="725" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1587739500530" />
+    <state width="475" height="600" key="DebuggerActiveHint" timestamp="1587558815332">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="475" height="600" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1587558815332" />
     <state x="690" y="238" key="FileChooserDialogImpl" timestamp="1586974590206">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="238" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1586974590206" />
-    <state width="1852" height="331" key="GridCell.Tab.0.bottom" timestamp="1587013359466">
+    <state width="906" height="190" key="GridCell.Tab.0.bottom" timestamp="1587739960372">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1852" height="334" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1586281503064" />
-    <state width="1852" height="331" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1587013359466" />
-    <state width="1852" height="331" key="GridCell.Tab.0.center" timestamp="1587013359466">
+    <state width="906" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1587739960372" />
+    <state width="906" height="190" key="GridCell.Tab.0.center" timestamp="1587739960371">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1852" height="334" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1586281503064" />
-    <state width="1852" height="331" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1587013359466" />
-    <state width="1852" height="331" key="GridCell.Tab.0.left" timestamp="1587013359465">
+    <state width="906" height="190" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1587739960371" />
+    <state width="906" height="190" key="GridCell.Tab.0.left" timestamp="1587739960371">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1852" height="334" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1586281503063" />
-    <state width="1852" height="331" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1587013359465" />
-    <state width="1852" height="331" key="GridCell.Tab.0.right" timestamp="1587013359466">
+    <state width="906" height="190" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1587739960371" />
+    <state width="906" height="190" key="GridCell.Tab.0.right" timestamp="1587739960372">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1852" height="334" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1586281503064" />
-    <state width="1852" height="331" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1587013359466" />
-    <state width="1852" height="299" key="GridCell.Tab.1.bottom" timestamp="1587013080112">
+    <state width="906" height="190" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1587739960372" />
+    <state width="906" height="301" key="GridCell.Tab.1.bottom" timestamp="1587739507659">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="299" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1587013080112" />
-    <state width="1852" height="299" key="GridCell.Tab.1.center" timestamp="1587013080111">
+    <state width="906" height="301" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1587739507659" />
+    <state width="906" height="301" key="GridCell.Tab.1.center" timestamp="1587739507659">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="299" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1587013080111" />
-    <state width="1852" height="299" key="GridCell.Tab.1.left" timestamp="1587013080111">
+    <state width="906" height="301" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1587739507659" />
+    <state width="906" height="301" key="GridCell.Tab.1.left" timestamp="1587739507659">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="299" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1587013080111" />
-    <state width="1852" height="299" key="GridCell.Tab.1.right" timestamp="1587013080111">
+    <state width="906" height="301" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1587739507659" />
+    <state width="906" height="301" key="GridCell.Tab.1.right" timestamp="1587739507659">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="299" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1587013080111" />
+    <state width="906" height="301" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1587739507659" />
     <state x="352" y="21" key="SettingsEditor" timestamp="1586974699393">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="352" y="21" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1586974699393" />
-    <state x="532" y="246" key="run.anything.popup" timestamp="1586764085191">
+    <state x="532" y="246" key="run.anything.popup" timestamp="1587553332532">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="532" y="246" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586764085191" />
+    <state x="532" y="246" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1587553332532" />
     <state x="1019" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1586766120973">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -340,8 +376,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/programmers/level2/카카오프렌즈_컬러링북.java</url>
-          <line>30</line>
+          <line>31</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/programmers/Test2.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

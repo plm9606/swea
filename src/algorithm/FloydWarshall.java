@@ -1,3 +1,5 @@
+package algorithm;
+
 class FloydWarshall {
   public static void main(String[] args) {
     int[][] g = {{0,5,Integer.MAX_VALUE,8},

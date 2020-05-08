@@ -1,3 +1,5 @@
+package algorithm;
+
 class BinomialCoefficient {
   public static void main(String[] args) {
     System.out.println("Hello world!");

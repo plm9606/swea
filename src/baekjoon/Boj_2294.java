@@ -16,7 +16,7 @@ public class Boj_2294 {
 //        }
 //        Integer[] coins = new Integer[set.size()];
 
-        int change = 13;//8;
+        int change = 10;//8;
         Integer[] coins = {12, 5,5,5,12};//{1,4,6};
         Set<Integer> set = new HashSet<>();
         for(int coin: coins){

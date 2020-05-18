@@ -31,11 +31,8 @@ public class Boj_2293 {
         Arrays.sort(coins);
 
         int[] memo = new int[change+1];
-        for(int i=0; i<memo.length; i++){
-            memo[i] = 1;
-        }
-
-        for(int i=1; i<coins.length;i++){
+        memo[0]=1;
+        for(int i=0; i<coins.length;i++){
             for(int j=coins[i]; j<=change; j++){
                 memo[j] += memo[j-coins[i]];
             }

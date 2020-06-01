@@ -11,8 +11,8 @@ public class Solution_ {
 
         Scanner sc = new Scanner(System.in);
 
-
-        for(int test_case = 1; test_case <= 10; test_case++){
+        int tc = sc.nextInt();
+        for(int test_case = 1; test_case <= tc; test_case++){
             int answer = 0;
 
             System.out.printf("#%d %d\n", test_case, answer);

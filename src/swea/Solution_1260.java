@@ -80,6 +80,12 @@ public class Solution_1260 {
             }
 
             int count = orderedList.size();
+            dp= new int[count][count];
+            for(int i=0; i<count; i++){
+                for(int j=0; j<count; j++){
+                    dp[i][j] = -1;
+                }
+            }
             int min = getMinTimes(0, count-1);
             System.out.printf("#%d %d\n", test_case, min);
 
@@ -91,14 +97,14 @@ public class Solution_1260 {
         if(start==end){
            return 0;
         }
-//        if (dp[start][end] != -1) return dp[start][end];
+        if (dp[start][end] != -1) return dp[start][end];
 
         int min = Integer.MAX_VALUE;
        for(int i=start; i<end; i++){
            min = Math.min(min, getMinTimes(start, i) + getMinTimes(i+1, end) + (orderedList.get(start).height*orderedList.get(i).width*orderedList.get(end).width));
        }
 
-       return min;
+       return dp[start][end] = min;
     }
 
 

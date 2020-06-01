@@ -6,16 +6,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
-
-class CalcResult{
-    Box resultBox;
-    int times;
-
-    public CalcResult(Box resultBox, int times) {
-        this.resultBox = resultBox;
-        this.times = times;
-    }
-}
+import java.util.zip.CheckedInputStream;
 
 class Box{
     int height, width;
@@ -34,8 +25,7 @@ public class Solution_1260 {
     static List<Box> boxes;
     static LinkedList<Box> orderedList;
     static int n;
-    static int min;
-
+    static int dp[][];
     public static void main(String[] args)throws FileNotFoundException {
         System.setIn(new FileInputStream("res/input1260.txt"));
 
@@ -49,7 +39,6 @@ public class Solution_1260 {
             visited = new boolean[n][n];
             boxes = new ArrayList<>();
             orderedList = new LinkedList<>();
-            min = Integer.MAX_VALUE;
 
             for(int i=0; i<n; i++){
                 for(int j = 0; j<n; j++){
@@ -91,54 +80,27 @@ public class Solution_1260 {
             }
 
             int count = orderedList.size();
-            permutation(count, count, new boolean[count], new int[count], 0);
-
+            int min = getMinTimes(0, count-1);
             System.out.printf("#%d %d\n", test_case, min);
 
         }
     }
 
-    public static CalcResult calculation(Box b1, Box b2){
-        int newArr[][] = new int[b1.height][b2.width];
 
-        for(int i=0; i<b1.height; i++){     // 0~1
-            for(int k=0; k< b2.width; k++){     // 0~3
-                int acc = 0;
-                for(int j=0; j< b1.width; j++){     // 0~2
-                acc += b1.arr[i][j] * b2.arr[j][k];
-                }
-                newArr[i][k] = acc;
-            }
+    public static int getMinTimes(int start, int end) {
+        if(start==end){
+           return 0;
         }
+//        if (dp[start][end] != -1) return dp[start][end];
 
-        return new CalcResult(new Box(b1.height, b2.width, newArr), b2.width*b1.height*b1.width);
+        int min = Integer.MAX_VALUE;
+       for(int i=start; i<end; i++){
+           min = Math.min(min, getMinTimes(start, i) + getMinTimes(i+1, end) + (orderedList.get(start).height*orderedList.get(i).width*orderedList.get(end).width));
+       }
+
+       return min;
     }
 
-    public static void permutation(int n, int r, boolean[] visited, int[] result, int picked){
-        if(picked == r){
-            // do something
-            int times = 0;
-            Box acc = orderedList.get(result[0]);
-
-            for(int i=1; i<result.length; i++){
-                CalcResult calcResult = calculation(acc, orderedList.get(result[i]));
-                acc = calcResult.resultBox;
-                times += calcResult.times;
-            }
-            if(min > times) min = times;
-
-            return;
-        }
-
-        for(int i=0; i<n; i++){
-            if(!visited[i]){
-                visited[i] = true;
-                result[picked] = i;
-                permutation(n, r, visited, result, picked+1);
-                visited[i] = false;
-            }
-        }
-    }
 
     public static void search(int y, int x){
         int width=1, height=1;

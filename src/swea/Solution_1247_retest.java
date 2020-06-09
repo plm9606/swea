@@ -63,3 +63,11 @@ public class Solution_1247_retest {
     }
 
 }
+class Point{
+    int x,y;
+
+    public Point(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+}

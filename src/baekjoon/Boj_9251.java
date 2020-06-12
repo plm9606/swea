@@ -29,6 +29,6 @@ public class Boj_9251 {
         }
 
         System.out.println(lcs[len][secondLen]);
-
     }
+
 }

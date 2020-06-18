@@ -8,7 +8,7 @@ public class Boj_1463 {
         Scanner sc = new Scanner(System.in);
 
         //int n = sc.nextInt();
-        int n = 14;
+        int n = 10;
         int arr[] = new int[n+1];
 
         arr[1] = 0;
@@ -17,6 +17,20 @@ public class Boj_1463 {
             arr[i] = arr[i-1] +1;
             if(i%2 == 0) arr[i] = Math.min(arr[i], arr[i/2]+1);
             if(i%3 == 0) arr[i] = Math.min(arr[i], arr[i/3]+1);
+        }
+
+//        System.out.println(arr[n]);
+        solution(n);
+    }
+
+    public static void solution(int n){
+        int[] arr = new int [n+1];
+        arr[2]=1;
+        arr[3]=1;
+        for(int i=4; i<=n; i++){
+            if(i%3==0)  arr[i] = arr[i/3]+1;
+            else if(i%2 == 0) arr[i] = arr[i/2]+1;
+            else arr[i] = arr[i-1]+1;
         }
 
         System.out.println(arr[n]);

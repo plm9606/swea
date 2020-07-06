@@ -8,7 +8,7 @@ public class NQueen {
     static  int[]Q;
     static int count;
     public static void main(String[] args) {
-         N = 8;
+         N = 10;
          count = 0;
         Q = new int[N+1];
 

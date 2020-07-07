@@ -1,5 +1,9 @@
 package algorithm.course;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class Knapsack {
     static int maxProfit, N, WEIGHT;
     static int[] W, P;
@@ -12,8 +16,8 @@ public class Knapsack {
         P = new int[]{-1,40,30,50,10};
 
         Item init = new Item(0,0,0);
-        backtarcking(init);
-
+//        backtarcking(init);
+            bfs();
         System.out.println(maxProfit);
     }
 
@@ -34,6 +38,23 @@ public class Knapsack {
         }
     }
 
+    public static void bfs(){
+        Queue<Item> queue = new LinkedList<>();
+        Item init = new Item(0,0,0);
+
+        queue.add(init);
+
+        while (! queue.isEmpty()){
+            Item n = queue.poll();
+
+            Item left = new Item(n.weight+W[n.level+1], n.profit+P[n.level+1], n.level+1);
+            if(left.weight<= WEIGHT && left.profit > maxProfit) maxProfit = left.profit;
+            if(promising(left)) queue.add(left);
+            Item right = new Item(n.weight, n.profit, n.level+1);
+            if(right.weight<= WEIGHT && right.profit > maxProfit) maxProfit = right.profit;
+            if(promising(right))queue.add(right);
+        }
+    }
 
     public static boolean promising(Item n){
         if(n.weight>WEIGHT){
@@ -52,9 +73,7 @@ public class Knapsack {
                 remainWeight -= W[i];
             }
         }
-
-        if(profit+n.profit < maxProfit) return false;
-        return true;
+        return (profit+n.profit > maxProfit);
     }
 }
 

@@ -69,7 +69,8 @@ public class 외벽_점검 {
         }
 
     }
-        public int solution_A(int n, int[] weak, int[] dist) {
+
+    public int solution_A(int n, int[] weak, int[] dist) {
 
             int answer = 0;
             Arrays.sort(dist);

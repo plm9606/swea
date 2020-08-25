@@ -93,6 +93,7 @@ public class Solution_1824 {
     static void move(Query query) {
         int xx = query.x + dx[query.dir];
         int yy = query.y + dy[query.dir];
+
         if (yy >= R) {
             yy = 0;
         } else if (yy < 0) {

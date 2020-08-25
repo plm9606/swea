@@ -1,5 +1,6 @@
 package baekjoon;
 
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -20,7 +21,6 @@ public class Boj_2531 {
         for(int i=0; i<N; i++){
             foods[i]= Integer.parseInt(br.readLine());
         }
-
         int max = 0;
         int end = 0;
         int cnt = 1;

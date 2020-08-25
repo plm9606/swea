@@ -5,9 +5,9 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.StringTokenizer;
 
-public class Boj_1102 {
+public class Boj_11052 {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("res/boj1102.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("res/boj11052.txt"));
 //        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());// 한줄씩 읽는다. "\n", "\r"을 만날때 까지 읽어온다.
         int[] card = new int[N+1];

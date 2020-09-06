@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class Boj_1707 {
@@ -41,40 +42,52 @@ public class Boj_1707 {
             types[0] = 1;
             for (int i = 0; i < v; i++) {
                 if (STOP) break;
-                if (!visited[i]) dfs(i);
+                if (!visited[i]) {
+                    types[i] = 1;
+//                    dfs(i);
+                    bfs(i);
+                }
             }
+
             if (!STOP) System.out.println("YES");
             else System.out.println("NO");
         }
     }
 
-
     public static void dfs(int idx) {
         if (STOP) return;
+        if (visited[idx]) return;
         visited[idx] = true;
-
         for (int n : graph.get(idx)) {
+            if (types[n] == types[idx]) {
+                STOP = true;
+                break;
+            }
             if (!visited[n]) {
-                if (types[n] == 0) {
-                    types[n] = getType(types[idx]);
-                    dfs(n);
-                } else {
-                    if (types[n] == types[idx]) {
+                types[n] = getType(types[idx]);
+                dfs(n);
+            }
+        }
+    }
 
-                        STOP = true;
-                    } else {
-                        dfs(n);
-                    }
-                }
-
-            } else {
-                if (types[n] == types[idx]) {
-
+    public static void bfs(int idx) {
+        Queue<Integer> q = new LinkedList<>();
+        q.add(idx);
+        loop:
+        while (!q.isEmpty()) {
+            int cur = q.poll();
+            visited[cur] = true;
+            for (int n : graph.get(cur)) {
+                if (types[n] == types[cur]) {
                     STOP = true;
+                    break loop;
+                }
+                if (!visited[n]) {
+                    types[n] = getType(types[cur]);
+                    q.add(n);
                 }
             }
         }
-//        visited[idx] = false;
     }
 
     public static int getType(int parent) {

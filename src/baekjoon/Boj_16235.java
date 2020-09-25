@@ -3,7 +3,6 @@ package baekjoon;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
@@ -17,6 +16,7 @@ public class Boj_16235 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader("res/boj16235.txt"));
 //        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
         StringTokenizer st = new StringTokenizer(br.readLine());
         n = Integer.parseInt(st.nextToken());
         int m = Integer.parseInt(st.nextToken());
@@ -35,48 +35,42 @@ public class Boj_16235 {
 
         for (int i = 0; i < m; i++) {
             st = new StringTokenizer(br.readLine());
-            int x = Integer.parseInt(st.nextToken()) - 1;
             int y = Integer.parseInt(st.nextToken()) - 1;
+            int x = Integer.parseInt(st.nextToken()) - 1;
             int z = Integer.parseInt(st.nextToken());
             trees.add(new Tree(y, x, z));
         }
 
+
 //        Collections.sort(trees);
 // 맨처음 나무를 주어지는 경우에서 동일한 위치는 업다고 했으니까 sort할 필요가 없음
 
-        while (k > 0) {
-            springAndSummer();
+        for (int y = 0; y < k; y++) {
+            spring();
+            summer();
             fall();
-            if (k == 1) {
+
+            if (y == k - 1) {
                 System.out.println(trees.size());
                 System.exit(0);
             }
             winter();
-            k--;
         }
-
-        System.out.println(trees.size());
-
     }
 
-    public static void springAndSummer() {
-        ArrayList<Tree> deads = new ArrayList<>();
-        for (int i = 0; i < trees.size(); i++) {
-            Tree t = trees.get(i);
+
+    public static void spring() {
+        for (Tree t : trees) {
             if (arr[t.y][t.x] >= t.age) {
                 arr[t.y][t.x] -= t.age;
-                t.age += 1;
-
+                t.age++;
             } else {
-                deads.add(t);
                 t.alive = false;
             }
         }
+    }
 
-//        for (Tree dead : deads) {
-//            arr[dead.y][dead.x] += (dead.age / 2);
-//        }
-
+    public static void summer() {
         for (Iterator<Tree> itt = trees.iterator(); itt.hasNext(); ) {
             Tree t = itt.next();
             if (!t.alive) {
@@ -87,22 +81,8 @@ public class Boj_16235 {
     }
 
     public static void fall() {
-//        for (int i = 0; i < trees.size(); i++) {
-//            Tree t = trees.get(i);
-//            if (t.age % 5 != 0) continue;
-//            for (int d = 0; d < 8; d++) {
-//                int xx = t.x + dx[d];
-//                int yy = t.y + dy[d];
-//                if (yy >= 0 && yy < n && xx >= 0 && xx < n) {
-//                    trees.addFirst(new Tree(yy, xx, 1));
-//                    i++;
-//                }
-//            }
-//        }
-
         LinkedList<Tree> newTreeList = new LinkedList<>();
-        for (int i = 0; i < trees.size(); i++) {
-            Tree t = trees.get(i);
+        for (Tree t : trees) {
             if (t.age % 5 != 0) continue;
             for (int d = 0; d < 8; d++) {
                 int xx = t.x + dx[d];

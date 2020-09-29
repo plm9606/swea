@@ -4,7 +4,6 @@ public class naver {
     static int[][] B;
 
     public static void main(String[] args) {
-//        new naver().solution(new int[][]{{0, 50}, {0, 22}, {2, 10}, {1, 4}, {4, -13}});
         new naver().solution(new int[][]{{0, 92}, {1, 20}, {2, 11}, {1, -81}, {3, 98}});
     }
 

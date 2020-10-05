@@ -52,17 +52,24 @@ public class Boj_19237 {
         LinkedList<Shark3> sharkPoint = new LinkedList<>(Arrays.asList(sharks));
 
 
-        while (sharkPoint.size() > 1 || time > 1000) {
+        while (sharkPoint.size() > 1) {
+            if (time > 1000) {
+                System.out.println(-1);
+                System.exit(0);
+            }
             HashSet<Integer> removeList = new HashSet<>();
+            ArrayList<int[]> move = new ArrayList<>();
+
             loop:
             for (Shark3 shark : sharkPoint) {
                 int[] priority = sharkDir[shark.idx - 1][shark.dir];
                 int[] point = new int[2];
                 int moveDir = 0;
+                boolean save = false;
                 for (int i = 0; i < 4; i++) {
-                    moveDir = priority[i];
-                    int yy = shark.y + dy[moveDir];
-                    int xx = shark.x + dx[moveDir];
+                    int d = priority[i];
+                    int yy = shark.y + dy[d];
+                    int xx = shark.x + dx[d];
 
                     if (yy < 0 || yy >= n || xx < 0 || xx >= n) continue;
                     // 냄새 없는 칸
@@ -70,32 +77,39 @@ public class Boj_19237 {
                         //go
                         point[0] = yy;
                         point[1] = xx;
-                        break;
-                    }
-                    // 지금 회차에 뿌려진 냄새라면 인덱스 비교
-                    if (arr[yy][xx].time == (time + k)) {
-                        // 현재 상어 번호가 더 클 경우
-                        if (arr[yy][xx].shark < shark.idx) {
-                            removeList.add(shark.idx);
-                            continue loop;
-                        }
-                        removeList.add(arr[yy][xx].shark);
-                        point[0] = yy;
-                        point[1] = xx;
+                        moveDir = d;
+
                         break;
                     }
                     // 자기 자신의 냄새 임시 저장
-                    if (arr[yy][xx].shark == shark.idx) {
+                    if (!save && arr[yy][xx].shark == shark.idx) {
                         point[0] = yy;
                         point[1] = xx;
+                        moveDir = d;
+                        save = true;
                     }
                 }
-
-                arr[point[0]][point[1]].shark = shark.idx;
-                arr[point[0]][point[1]].time = time + k;
                 shark.y = point[0];
                 shark.x = point[1];
                 shark.dir = moveDir;
+
+                move.add(new int[]{shark.idx, point[0], point[1]});
+            }
+
+            // 모두 움직인 후 같은 위치에 있는 상어 제거 및 arr 업데이트
+            // 미리 arr값을 조정하면 빈칸으로 취급되지 않기 때문에 모두 움직인 후에 값 업데이트해줘야 한다.
+            // idx, yy, xx
+            for (int[] query : move) {
+                if (arr[query[1]][query[2]].time == (time + k)) {
+                    // 현재 상어 번호가 더 클 경우
+                    if (arr[query[1]][query[2]].shark < query[0]) {
+                        removeList.add(query[0]);
+                        continue;
+                    }
+                    removeList.add(arr[query[1]][query[2]].shark);
+                }
+                arr[query[1]][query[2]].shark = query[0];
+                arr[query[1]][query[2]].time = time + k;
             }
 
             for (Iterator<Shark3> itt = sharkPoint.iterator(); itt.hasNext(); ) {
@@ -109,7 +123,7 @@ public class Boj_19237 {
             time++;
         }
 
-        System.out.println(time);
+        System.out.println(time - 1);
     }
 }
 

@@ -1,3 +1,5 @@
+package test;
+
 class Socar1 {
     public int solution(String[] bakery_schedule, String current_time, int K) {
         String[] curTime = current_time.split(":");

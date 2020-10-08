@@ -1,3 +1,5 @@
+package test;
+
 class Socar2 {
     public int solution(String[] drum) {
         int answer = 0;

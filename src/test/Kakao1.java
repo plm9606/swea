@@ -1,3 +1,5 @@
+package test;
+
 public class Kakao1 {
     public static void main(String[] args) {
         String new_id = "z-+.^.";

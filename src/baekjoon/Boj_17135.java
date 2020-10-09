@@ -31,14 +31,6 @@ public class Boj_17135 {
             }
         }
 
-        LinkedList<int[]> l = new LinkedList<>();
-        l.add(new int[]{1, 1});
-        l.add(new int[]{434, 43});
-
-        LinkedList<int[]> ll = new LinkedList<>(l);
-        ll.remove(0);
-
-
         combination(new boolean[M], 3, 0);
         System.out.println(max);
     }
@@ -109,16 +101,5 @@ public class Boj_17135 {
         }
 
         max = Math.max(max, cnt);
-    }
-}
-
-class Enemy {
-    int y, x;
-    boolean alive;
-
-    public Enemy(int y, int x) {
-        this.y = y;
-        this.x = x;
-        this.alive = true;
     }
 }
